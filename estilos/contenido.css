@@ -1,0 +1,86 @@
+.contenedor-contenido {
+    background-color: rgb(54, 56, 63);
+    box-shadow: inset -550px -90px 200px -10px rgba(0, 0, 0, 0.58);
+    height: 630px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* COLUMNA IZQUIERDA */
+.contenedor-contenido > .contenedor-contenido-izq {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.contenedor-contenido > .contenedor-contenido-izq > .contenedor-codepen-text {
+    width: 900px;
+    height: 67%;
+    color: rgb(177, 177, 176);
+    font-weight: 300;
+}
+
+.contenedor-contenido > .contenedor-contenido-izq > .contenedor-codepen-text p:nth-child(1) {
+    font-size: 3.12em;
+    line-height: 50px;
+}
+
+.contenedor-contenido > .contenedor-contenido-izq > .contenedor-codepen-text .resaltar {
+    color: white;
+    font-weight: 400;
+}
+
+.contenedor-contenido > .contenedor-contenido-izq > .contenedor-codepen-text p:nth-child(2) {
+    margin-top: -15px;
+    font-size: 2.5em;
+    width: 860px;
+}
+
+.contenedor-contenido > .contenedor-contenido-izq > .contenedor-botones {
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+    font-size: 2.6em;
+}
+
+.contenedor-contenido > .contenedor-contenido-izq > .contenedor-botones .signupfree-boton > .btn {
+    background-color: rgb(75, 206, 121);
+}
+
+.contenedor-contenido > .contenedor-contenido-izq > .contenedor-botones .learnmore-boton > .btn {
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+.contenedor-contenido > .contenedor-contenido-izq > .contenedor-botones button {
+    font-size: 1.2em;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 7px;
+}
+
+/* COLUMNA DERECHA */
+.contenedor-contenido > .contenedor-contenido-der {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contenedor-contenido > .contenedor-contenido-der > .contenedor-contenido-codepenproject {
+    margin-bottom: 7px;
+    margin-left: 20px;
+    height: 50px;
+    font-size: 1.25em;
+    color: white;
+    font-weight: bold;
+    align-items: end;
+}
+
+.contenedor-contenido-der .resaltar {
+    color: rgb(72, 169, 218);
+}
+
+.contenedor-contenido > .contenedor-contenido-der > .contenedor-imagen-codepenproject img {
+    height: 550px;
+    width: 700px;
+}

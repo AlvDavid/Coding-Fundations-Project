@@ -1,0 +1,97 @@
+.contenedor-nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* PARTE IZQUIERDA */
+.contenedor-nav > .parte-izq {
+    display: flex;
+}
+
+.contenedor-nav > .parte-izq > .contenedor-logo {
+    align-content: center;
+}
+
+.contenedor-nav > .parte-izq > .contenedor-logo img {
+    width: 270px;
+}
+
+.contenedor-nav > .parte-izq > .contenedor-explore {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    align-content: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    margin-left: 100px;
+}
+
+.contenedor-nav > .parte-izq > .contenedor-explore > .texto-explore {
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(180, 180, 49);
+}
+
+.contenedor-nav > .parte-izq > .contenedor-explore > .contenedor-links {
+    display: flex;
+    gap: 40px;
+}
+
+.contenedor-nav > .parte-izq > .contenedor-explore > .contenedor-links > .links {
+    display: flex;
+    gap: 30px;
+}
+
+.contenedor-nav > .parte-izq > .contenedor-explore > .contenedor-links > .links > .link-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+/* Desplegable */
+.contenedor-nav > .parte-izq > .contenedor-explore > .contenedor-links > .sparkdropdown {
+    position: relative;
+}
+  
+.contenedor-nav > .parte-izq > .contenedor-explore > .contenedor-links > .sparkdropdown > .sparkdropbtn {
+    color: gray;
+    font-size: 2.0rem;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+}
+  
+.contenedor-nav > .parte-izq > .contenedor-explore > .contenedor-links > .sparkdropdown > .sparkdropbtn:hover {
+    background-color: #444;
+}
+
+/* PARTE DERECHA */
+.contenedor-nav > .parte-der {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.contenedor-nav > .parte-der > .clickaqui > .clickder {
+    background-color: rgb(54, 56, 63);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.contenedor-nav > .parte-der > .clickaqui > .clickbuscar {
+    background: transparent;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contenedor-nav > .parte-der > .clickaqui > .clickbuscar i {
+    font-size: 2.8em;
+}

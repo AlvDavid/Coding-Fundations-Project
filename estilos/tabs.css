@@ -1,0 +1,19 @@
+.contenedor-tabs {
+    display: flex;
+}
+
+.contenedor-tabs > .tab {
+    background-color: rgb(54, 56, 63);
+    border: 2px solid rgb(79, 80, 83);
+    width: 25%;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+}
+
+.contenedor-tabs > .tab .resaltar {
+    font-weight: bold;
+    font-size: 2.1rem;
+}
